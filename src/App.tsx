@@ -7,7 +7,7 @@ export default function(){
   return(
     <NavigationContainer>
       <StatusBar
-        backgroundColor="#FFA500"
+        backgroundColor="#FF9900"
       />
       <ScreenManager/>
     </NavigationContainer>

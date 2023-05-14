@@ -34,7 +34,7 @@ export default function(){
           options={{
             title:'SOBRE',
             headerStyle:{
-              backgroundColor:'#FFA500',
+              backgroundColor:'#FF9900',
             },
             headerTintColor:'#fff',
             headerTitleStyle:{
@@ -57,7 +57,7 @@ export default function(){
           options={{
             title:'EXPERIÊNCIA',
             headerStyle:{
-              backgroundColor:'#FFA500',
+              backgroundColor:'#FF9900',
             },
             headerTintColor:'#fff',
             headerTitleStyle:{
@@ -80,7 +80,7 @@ export default function(){
           options={{
             title:'MENU PRINCIPAL',
             headerStyle:{
-              backgroundColor:'#FFA500',
+              backgroundColor:'#FF9900',
             },
             headerTintColor:'#fff',
             headerTitleStyle:{
@@ -100,7 +100,7 @@ export default function(){
           options={{
             title:'EDUCAÇÃO',
             headerStyle:{
-              backgroundColor:'#FFA500',
+              backgroundColor:'#FF9900',
             },
             headerTintColor:'#fff',
             headerTitleStyle:{
@@ -123,7 +123,7 @@ export default function(){
           options={{
             title:'HOBBIES',
             headerStyle:{
-              backgroundColor:'#FFA500',
+              backgroundColor:'#FF9900',
             },
             headerTintColor:'#fff',
             headerTitleStyle:{

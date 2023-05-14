@@ -4,7 +4,7 @@ export default StyleSheet.create({
     layoutBox:{
         padding: 20,
         width: '100%',
-        backgroundColor: '#FFA500',
+        backgroundColor: '#FF9900',
         alignItems: 'center',
         borderRadius: 25,
     },
