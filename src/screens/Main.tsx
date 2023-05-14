@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
-import {View, Text, ScrollView, Image, Modal} from 'react-native'
+import {View, Text, ScrollView, Image} from 'react-native'
 import StyleText from '../style/text'
 import StyleScreen from '../style/screens'
-import StyleModal from '../style/modal'
 import Bottom from '../components/Bottom'
+import ContatoModal from '../components/ContatoModal'
 
 export default function(){
 
-	const [modalIsVisible, setmodalIsVisible] = useState(false)
+	const [modalIsVisible, setModalIsVisible] = useState(false)
 
 	return(
 		<ScrollView>
@@ -19,28 +19,8 @@ export default function(){
 						style={StyleScreen.imagesProfile}
 					/>
 				</View>
-				<Bottom title='Entre em Contato' state={true} setState={setmodalIsVisible}/>
-				<Modal
-					animationType='slide'	
-					visible={modalIsVisible}
-					transparent={true}
-				>
-					<View style={StyleModal.background}>
-						<View style={StyleModal.layout}>
-							<Text style={StyleText.title}>LinkedIn{'\n'}</Text>
-							<Text style={StyleText.regular}>linkedin.com/in/mateuspitura{'\n'}</Text>
-							<View style={StyleModal.layoutImagesQrcode}>
-								<Image
-									source={require('../assets/images/qrcode.png')}
-									style={StyleModal.imagesQrcode}
-								/>	
-							</View>
-							<View style={StyleModal.bottomModal}>
-								<Bottom title='Voltar' state={false} setState={setmodalIsVisible}/>
-							</View>
-						</View>
-					</View>
-				</Modal>
+				<Bottom title='Entre em Contato' state={true} setState={setModalIsVisible}/>
+				<ContatoModal visible={modalIsVisible} setState={setModalIsVisible}/>
 			</View>
 		</ScrollView>
 	)
