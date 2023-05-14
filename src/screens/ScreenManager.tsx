@@ -1,4 +1,6 @@
 import React from 'react';
+import {Text} from 'react-native'
+import StyleBottomTabNavigator from '../style/bottom-tab-navigator'
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Main from './Main';
 import About from './About';
@@ -10,7 +12,13 @@ const BottomTabNavigator = createBottomTabNavigator();
 
 export default function(){
   return(
-      <BottomTabNavigator.Navigator initialRouteName="Main">
+      <BottomTabNavigator.Navigator 
+        initialRouteName="Main" 
+        screenOptions={{
+          tabBarShowLabel: false,
+          tabBarStyle:[StyleBottomTabNavigator.background]
+        }}
+      >
         <BottomTabNavigator.Screen
           name="About"
           component={About}
@@ -39,6 +47,9 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
+            // tabBarIcon:()=>(
+            //   <Text></Text>
+            // )
           }}
         />
         <BottomTabNavigator.Screen

@@ -1,7 +1,7 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import Root from './screens/Root'
+import ScreenManager from './screens/ScreenManager'
 
 export default function(){
   return(
@@ -9,7 +9,7 @@ export default function(){
       <StatusBar
         backgroundColor="#FFA500"
       />
-      <Root/>
+      <ScreenManager/>
     </NavigationContainer>
   )
 }
