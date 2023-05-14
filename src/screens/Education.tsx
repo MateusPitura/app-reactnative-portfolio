@@ -24,7 +24,7 @@ export default function(){
 				<View>
 					<Text style={StyleText.subtitle}>Oracle ONE + Alura</Text>
 					<Text style={StyleText.subtitle}>6 meses{'\n'}</Text>
-					<Text style={StyleText.regular}>Back-end com Java, Métodologias Ágeis, Versionamento de Código com Git</Text>
+					<Text style={StyleText.regular}>Back-end com Java; métodologias ágeis; versionamento de código com Git</Text>
 				</View>
 			</View>
 		</ScrollView>

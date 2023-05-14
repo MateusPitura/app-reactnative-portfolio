@@ -8,8 +8,8 @@ export default function(){
 		<ScrollView>
 			<View style={StyleScreen.layout}>
 				<Text style={StyleText.title}>Apresentação{'\n'}</Text>
-				<Text style={StyleText.regular}>Me chamo Mateus Enrick Pitura, tenho 19 anos. Nascido e criado em Ponta Grossa, sou um entusiasta por tecnologia, desde criança gostei de explorar, experimentar e me divertir com o mundo tecnológico. Com particular interesse pela área da programação, especialmente na âmbito do desenvolvimento mobile.{'\n'}</Text>
-				<Text style={StyleText.regular}>Moro atualmente com meus pais, minha irmãe e minha avó. Tenho um puddle chamado Geise Bel e a minha casa ainda tem mais dois cachorros da minha avó e duas calopsitas da minha mãe.{'\n'}</Text>
+				<Text style={StyleText.regular}>Meu nome é Mateus Enrick Pitura, tenho 19 anos. Nascido e criado em Ponta Grossa, sou um entusiasta por tecnologia, desde criança gostei de explorar, pesquisar e experimentar o mundo digital. Com particular interesse pela área da programação, especialmente na ramo do desenvolvimento mobile.{'\n'}</Text>
+				<Text style={StyleText.regular}>Moro atualmente com meus pais, minha irmãe e minha avó. Tenho um puddle chamado Geise Bel e há na minha casa ainda mais dois cachorros e duas calopsitas.{'\n'}</Text>
 				<Text style={StyleText.title}>Habilidades{'\n'}</Text>
 				<View>
 					<Text style={StyleText.regular}>React Native</Text>
@@ -22,6 +22,7 @@ export default function(){
 					<Text style={StyleText.regular}>Pacote Office</Text>
 					<Text style={StyleText.regular}>SAP</Text>
 					<Text style={StyleText.regular}>Git</Text>
+					<Text style={StyleText.regular}>Linux</Text>
 				</View>
 			</View>
 		</ScrollView>
