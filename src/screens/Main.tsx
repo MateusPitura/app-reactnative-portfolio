@@ -13,10 +13,10 @@ export default function(){
 		<ScrollView>
 			<View style={StyleScreen.layout}>
 				<Text style={StyleText.regular}>Este aplicativo foi desenvolvimento a fim de contar um pouco sobre mim na estrevista para estágio da Continental. Navegue entre as categorias para me conhecer melhor!</Text>
-				<View style={StyleScreen.layoutImages}>
+				<View style={StyleScreen.layoutImagesProfile}>
 					<Image 
 						source={require('../assets/images/Foto.png')}
-						style={StyleScreen.images}
+						style={StyleScreen.imagesProfile}
 					/>
 				</View>
 				<Bottom title='Entre em Contato' state={true} setState={setmodalIsVisible}/>
@@ -27,12 +27,14 @@ export default function(){
 				>
 					<View style={StyleModal.background}>
 						<View style={StyleModal.layout}>
-							<Text style={StyleText.title}>Telefone{'\n'}</Text>
-							<Text style={StyleText.regular}>(42) 9 9152-7032{'\n'}</Text>
-							<Text style={StyleText.title}>E-mail{'\n'}</Text>
-							<Text style={StyleText.regular}>mateuspitura@gmail.com{'\n'}</Text>
 							<Text style={StyleText.title}>LinkedIn{'\n'}</Text>
 							<Text style={StyleText.regular}>linkedin.com/in/mateuspitura{'\n'}</Text>
+							<View style={StyleScreen.layoutImagesQrcode}>
+								<Image
+									source={require('../assets/images/qrcode.png')}
+									style={StyleScreen.imagesQrcode}
+								/>	
+							</View>
 							<Bottom title='Voltar' state={false} setState={setmodalIsVisible}/>
 						</View>
 					</View>

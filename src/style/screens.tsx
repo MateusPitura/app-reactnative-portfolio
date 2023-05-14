@@ -6,15 +6,24 @@ export default StyleSheet.create({
         paddingBottom: 200,
         backgroundColor: '#fff',
     },
-    layoutImages:{
+    layoutImagesProfile:{
         justifyContent: 'center',
         alignItems: 'center',
         paddingTop: 20,
         paddingBottom: 20,
     },
-    images:{
+    imagesProfile:{
         width: 300,
         height: 225,
+        resizeMode: 'contain',
+    },
+    layoutImagesQrcode:{
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    imagesQrcode:{
+        width: 300,
+        height: 300,
         resizeMode: 'contain',
     },
 })
