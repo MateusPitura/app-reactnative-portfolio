@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
     background:{
-        height: 50,
+        height: 75,
         backgroundColor: '#FFA500',
     }
 })
