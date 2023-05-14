@@ -22,5 +22,10 @@ export default StyleSheet.create({
         fontFamily: 'Arial',
         fontSize: 24,
         color: '#000',
+    },
+    bottom:{
+        fontFamily: 'Arial',
+        fontSize: 20,
+        color: '#000'
     }
 })

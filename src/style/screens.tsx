@@ -9,6 +9,8 @@ export default StyleSheet.create({
     layoutImages:{
         justifyContent: 'center',
         alignItems: 'center',
+        paddingTop: 20,
+        paddingBottom: 20,
     },
     images:{
         width: 300,
