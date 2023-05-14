@@ -1,4 +1,5 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Main from './screens/Main';
@@ -16,27 +17,77 @@ export default function(){
         <BottomTabNavigator.Screen
           name="About"
           component={About}
-          options={{title:'About'}}
+          options={{
+            title:'SOBRE',
+            headerStyle:{
+              backgroundColor:'#FFA500',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+              fontWeight:'bold',
+            },
+            headerTitleAlign:'center',
+          }}
         />
         <BottomTabNavigator.Screen
           name="Hobbies"
           component={Hobbies}
-          options={{title:'Hobbies'}}
+          options={{
+            title:'HOBBIES',
+            headerStyle:{
+              backgroundColor:'#FFA500',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+              fontWeight:'bold',
+            },
+            headerTitleAlign:'center',
+          }}
         />
         <BottomTabNavigator.Screen
           name="Main"
           component={Main}
-          options={{title:'Main'}}
+          options={{
+            title:'MENU PRINCIPAL',
+            headerStyle:{
+              backgroundColor:'#FFA500',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+              fontWeight:'bold',
+            },
+            headerTitleAlign:'center',
+          }}
         />
         <BottomTabNavigator.Screen
           name="Education"
           component={Education}
-          options={{title:'Education'}}
+          options={{
+            title:'EDUCAÇÃO',
+            headerStyle:{
+              backgroundColor:'#FFA500',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+              fontWeight:'bold',
+            },
+            headerTitleAlign:'center',
+          }}
         />
         <BottomTabNavigator.Screen
           name="Experience"
           component={Experience}
-          options={{title:'Experience'}}
+          options={{
+            title:'EXPERIÊNCIA',
+            headerStyle:{
+              backgroundColor:'#FFA500',
+            },
+            headerTintColor:'#fff',
+            headerTitleStyle:{
+              fontWeight:'bold',
+            },
+            headerTitleAlign:'center',
+          }}
         />
       </BottomTabNavigator.Navigator>
     </NavigationContainer>
