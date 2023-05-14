@@ -4,7 +4,8 @@ export default StyleSheet.create({
     label:{
         fontFamily: 'Arial',
         fontSize: 12,
-        color: '#000'
+        color: '#000',
+        fontWeight: 'bold',
     },
     regular:{
         fontFamily: 'Arial',
@@ -17,4 +18,9 @@ export default StyleSheet.create({
         color: '#000',
         fontWeight: 'bold',
     },
+    subtitle:{
+        fontFamily: 'Arial',
+        fontSize: 24,
+        color: '#000',
+    }
 })
