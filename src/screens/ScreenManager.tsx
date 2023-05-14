@@ -44,7 +44,7 @@ export default function(){
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconAbout width={40} height={40}/>
-                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Sobre
                 </Text>
               </View>
@@ -67,7 +67,7 @@ export default function(){
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconExperience width={40} height={40}/>
-                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Experiência
                 </Text>
               </View>
@@ -110,7 +110,7 @@ export default function(){
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconEducation width={40} height={40}/>
-                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Educação
                 </Text>
               </View>
@@ -133,7 +133,7 @@ export default function(){
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconHobbies width={40} height={40}/>
-                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Hobbies
                 </Text>
               </View>
