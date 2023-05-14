@@ -1,7 +1,9 @@
 import React from 'react';
 import {View, Text} from 'react-native'
-import StyleBottomTabNavigator from '../style/bottom-tab-navigator'
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
+import StyleBottomTabNavigator from '../style/bottom-tab-navigator'
+import StyleText from '../style/text'
 
 import Main from './Main';
 import About from './About';
@@ -39,10 +41,12 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
-            tabBarIcon:()=>(
-              <View>
+            tabBarIcon:({focused})=>(
+              <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconAbout width={40} height={40}/>
-                <Text>Sobre</Text>
+                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                  Sobre
+                </Text>
               </View>
             )
           }}
@@ -60,10 +64,12 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
-            tabBarIcon:()=>(
-              <View>
+            tabBarIcon:({focused})=>(
+              <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconExperience width={40} height={40}/>
-                <Text>Experiência</Text>
+                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                  Experiência
+                </Text>
               </View>
             )
           }}
@@ -82,7 +88,9 @@ export default function(){
             },
             headerTitleAlign:'center',
             tabBarIcon:()=>(
-              <IconMain width={50} height={50}/>
+              <View style={StyleBottomTabNavigator.iconLayout}>
+                <IconMain width={50} height={50}/>
+              </View>
             )
           }}
         />
@@ -99,10 +107,12 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
-            tabBarIcon:()=>(
-              <View>
+            tabBarIcon:({focused})=>(
+              <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconEducation width={40} height={40}/>
-                <Text>Educação</Text>
+                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                  Educação
+                </Text>
               </View>
             )
           }}
@@ -120,10 +130,12 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
-            tabBarIcon:()=>(
-              <View>
+            tabBarIcon:({focused})=>(
+              <View style={StyleBottomTabNavigator.iconLayout}>
                 <IconHobbies width={40} height={40}/>
-                <Text>Hobbies</Text>
+                <Text style={[StyleText.regular, {color: focused?'#fff':'#000'}]}>
+                  Hobbies
+                </Text>
               </View>
             )
           }}
