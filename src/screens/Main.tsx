@@ -29,13 +29,15 @@ export default function(){
 						<View style={StyleModal.layout}>
 							<Text style={StyleText.title}>LinkedIn{'\n'}</Text>
 							<Text style={StyleText.regular}>linkedin.com/in/mateuspitura{'\n'}</Text>
-							<View style={StyleScreen.layoutImagesQrcode}>
+							<View style={StyleModal.layoutImagesQrcode}>
 								<Image
 									source={require('../assets/images/qrcode.png')}
-									style={StyleScreen.imagesQrcode}
+									style={StyleModal.imagesQrcode}
 								/>	
 							</View>
-							<Bottom title='Voltar' state={false} setState={setmodalIsVisible}/>
+							<View style={StyleModal.bottomModal}>
+								<Bottom title='Voltar' state={false} setState={setmodalIsVisible}/>
+							</View>
 						</View>
 					</View>
 				</Modal>

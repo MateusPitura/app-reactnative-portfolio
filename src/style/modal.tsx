@@ -11,5 +11,18 @@ export default StyleSheet.create({
         padding: 20,
         backgroundColor: '#fff',
         borderRadius: 25,
-    }
+    },
+    layoutImagesQrcode:{
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    imagesQrcode:{
+        width: 300,
+        height: 300,
+        resizeMode: 'contain',
+    },
+    bottomModal:{
+        flex: 1,
+        justifyContent: 'flex-end',
+    },
 })

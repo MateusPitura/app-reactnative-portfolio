@@ -16,14 +16,5 @@ export default StyleSheet.create({
         width: 300,
         height: 225,
         resizeMode: 'contain',
-    },
-    layoutImagesQrcode:{
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    imagesQrcode:{
-        width: 300,
-        height: 300,
-        resizeMode: 'contain',
-    },
+    }
 })
