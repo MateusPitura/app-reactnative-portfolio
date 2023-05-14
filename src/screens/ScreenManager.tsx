@@ -43,7 +43,7 @@ export default function(){
             headerTitleAlign:'center',
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
-                <IconAbout width={40} height={40}/>
+                <IconAbout stroke={focused?'#fff':'#000'} width={40} height={40}/>
                 <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Sobre
                 </Text>
@@ -66,7 +66,7 @@ export default function(){
             headerTitleAlign:'center',
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
-                <IconExperience width={40} height={40}/>
+                <IconExperience stroke={focused?'#fff':'#000'} width={40} height={40}/>
                 <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Experiência
                 </Text>
@@ -87,9 +87,9 @@ export default function(){
               fontWeight:'bold',
             },
             headerTitleAlign:'center',
-            tabBarIcon:()=>(
+            tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
-                <IconMain width={50} height={50}/>
+                <IconMain fill={focused?'#fff':'#000'} width={50} height={50}/>
               </View>
             )
           }}
@@ -109,7 +109,7 @@ export default function(){
             headerTitleAlign:'center',
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
-                <IconEducation width={40} height={40}/>
+                <IconEducation stroke={focused?'#fff':'#000'} width={40} height={40}/>
                 <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Educação
                 </Text>
@@ -132,7 +132,7 @@ export default function(){
             headerTitleAlign:'center',
             tabBarIcon:({focused})=>(
               <View style={StyleBottomTabNavigator.iconLayout}>
-                <IconHobbies width={40} height={40}/>
+                <IconHobbies stroke={focused?'#fff':'#000'} width={40} height={40}/>
                 <Text style={[StyleText.label, {color: focused?'#fff':'#000'}]}>
                   Hobbies
                 </Text>

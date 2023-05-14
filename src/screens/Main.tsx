@@ -19,7 +19,7 @@ export default function(){
 						style={StyleScreen.imagesProfile}
 					/>
 				</View>
-				<Bottom title='Entre em Contato' state={true} setState={setModalIsVisible}/>
+				<Bottom title='Entrar em Contato' state={true} setState={setModalIsVisible}/>
 				<ContatoModal visible={modalIsVisible} setState={setModalIsVisible}/>
 			</View>
 		</ScrollView>
