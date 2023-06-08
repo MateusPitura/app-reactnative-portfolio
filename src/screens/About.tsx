@@ -12,7 +12,7 @@ export default function(){
 				<Text style={StyleText.regular}>Moro atualmente com meus pais, minha irmãe e minha avó. Tenho um puddle chamado Geise Bel e há na minha casa ainda mais dois cachorros e duas calopsitas.{'\n'}</Text>
 				<Text style={StyleText.title}>Habilidades{'\n'}</Text>
 				<View>
-					<Text style={StyleText.regular}>React Native</Text>
+					<Text style={StyleText.regular}>React Native CLI</Text>
 					<Text style={StyleText.regular}>HTML</Text>
 					<Text style={StyleText.regular}>CSS</Text>
 					<Text style={StyleText.regular}>Java Script</Text>
