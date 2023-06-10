@@ -17,7 +17,7 @@
 
 ## Descrição 
 
-Este aplicativo foi criado para fornecer uma plataforma interativa onde você pude exibir minhas experiências profissionais, habilidades, projetos pessoais e muito mais para uma entrevista na Continental. Com um design elegante e recursos avançados, este aplicativo é a maneira perfeita de destacar realizações e impressionar potenciais empregadores ou clientes
+Este aplicativo foi criado para fornecer uma plataforma interativa onde pude exibir minhas experiências profissionais, habilidades, projetos pessoais e muito mais para uma entrevista na Continental. Com um design elegante e recursos avançados, este aplicativo é a maneira perfeita de destacar realizações e impressionar potenciais empregadores ou clientes
 
 ## Índice 
 
