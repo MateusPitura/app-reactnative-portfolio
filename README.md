@@ -33,7 +33,14 @@ Este aplicativo foi criado para fornecer uma plataforma interativa onde pude exi
 :camera: **QR Code para LinkedIn:** conecte-se comigo facilmente através de um QRCode para meu perfil do LinkedIn
 
 <p align="center"> 
-  <img src="https://github.com/MateusPitura/app-portfolio-pessoal/assets/119008106/b04f6f73-cbb9-49cb-ba99-a67fb1ca4189" alt="GIF demonstrando as funcionalidades do aplicativo" width="50%"> 
+
+
+<img src="https://github.com/MateusPitura/app-portfolio-pessoal/assets/119008106/c2b7a13b-a343-4930-9947-ec45c6bc4128" width="25%"/>
+
+
+
+
+  
 </p> 
 
 ## Como executar 
