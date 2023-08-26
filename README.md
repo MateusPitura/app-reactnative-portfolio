@@ -34,13 +34,8 @@ Este aplicativo foi criado para fornecer uma plataforma interativa onde pude exi
 
 <p align="center"> 
 
-
 <img src="https://github.com/MateusPitura/app-portfolio-pessoal/assets/119008106/c2b7a13b-a343-4930-9947-ec45c6bc4128" width="25%"/>
 
-
-
-
-  
 </p> 
 
 ## Como executar 
@@ -51,7 +46,7 @@ Este aplicativo foi criado para fornecer uma plataforma interativa onde pude exi
 
 **Para devs:**
 
-1. `git clone git@github.com:MateusPitura/app-portfolio-pessoal.git app`
+1. `git clone https://github.com/MateusPitura/app-reactnative-portfolio.git app`
 
 2. `npm install`
 
