@@ -13,8 +13,6 @@
   <img src="https://img.shields.io/github/stars/MateusPitura/app-reactnative-portfolio?style=social" alt="Badge indicando quantidade de estrelas no repositório"> 
 </p> 
 
-> :checkered_flag: Este projeto está finalizado :checkered_flag:  
-
 ## Descrição 
 
 Este aplicativo foi criado para fornecer uma plataforma interativa onde pude exibir minhas experiências profissionais, habilidades, projetos pessoais e muito mais para uma entrevista na Continental. Com um design elegante e recursos avançados, este aplicativo é a maneira perfeita de destacar realizações e impressionar potenciais empregadores ou clientes
